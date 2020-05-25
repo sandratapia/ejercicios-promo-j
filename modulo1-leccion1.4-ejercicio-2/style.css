@@ -1,0 +1,12 @@
+.grande{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.pequeños{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    border: 1px solid purple;
+    text-align: center;
+}
