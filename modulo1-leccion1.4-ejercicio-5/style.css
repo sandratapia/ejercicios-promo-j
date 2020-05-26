@@ -1,0 +1,25 @@
+.main-header{
+    height: 100px;
+    background-color: rgb(189, 189, 189);
+    min-height: 1vh;
+}
+
+.main-main{
+    height:800px;
+    background-color: grey;
+    min-height: 8vh;
+    flex-shrink: 1;
+    flex-basis: min-content;
+    flex-direction: row;
+    flex-grow: initial;
+}
+
+.main-footer{
+    height: 50px;
+    background-color: orangered;
+    min-height: 5vh;
+    display: flex;
+    align-content: flex-end;
+    flex-shrink: 2;
+    flex-basis: min-content;
+}
