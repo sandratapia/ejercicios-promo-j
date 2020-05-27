@@ -1,6 +1,8 @@
 .body{
     display:flex;
     justify-content: center;
+    width: 100%;
+    max-width: 840px;
 }
 .aside1{
     height: 120px;
@@ -23,6 +25,7 @@ h3, h4{
     height: 20px;
     width: 20px;
     border: 1px solid red;
+    border-radius: 5px;
 }
 .estrella{
     height: 20px;
@@ -31,6 +34,7 @@ h3, h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
 .aside2{
