@@ -1,0 +1,12 @@
+.cookies{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    position:fixed; 
+    left:0px;
+    right:0px; 
+    bottom:0px; 
+    z-index:2;
+}

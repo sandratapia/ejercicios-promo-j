@@ -1,0 +1,33 @@
+.div-hijo1{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    margin:40px;
+    padding:30px;
+    background-color: red;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.div-hijo2{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    margin:40px;
+    padding:30px;
+    background-color: purple;
+    position: relative;
+    right: 150px;
+    bottom: 320px;
+}
+.div-hijo3{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    margin:40px;
+    padding:30px;
+    background-color: yellow;
+    position: relative;
+    left:180px;
+    bottom: 240px;
+}
