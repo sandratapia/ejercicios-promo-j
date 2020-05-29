@@ -1,0 +1,130 @@
+@media all and (min-width:0px) and (max-width:480px){
+    body {
+        box-sizing: border-box;
+        background-color: lightgray;
+
+    }
+    header{
+        background-color: lightgray;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    nav{
+        background-color: lime;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    a{
+        display: block;
+    }
+    h2{
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    main{
+        background-color: yellow;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    h3{
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    footer{
+        background-color: lightgray;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    .container{
+        background-color: gray;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    .orange{
+        display: none;
+    }
+}
+
+@media all and (min-width:480px) and (max-width:1000px){
+    body {
+        box-sizing: border-box;
+        background-color: lightgray;
+
+    }
+    header{
+        background-color: lightgray;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    .container1{
+        background-color: lime;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 120px;
+        height: 57px;
+    }
+    a{
+        display: block;
+    }
+    h2{
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    main{
+        background-color: yellow;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        position: relative;
+        transform: translate(130px, -57px);
+        max-width: 100%;
+        height: auto;
+    }
+    .orange{
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        transform: translate(0px, -100%);
+    }
+    .parrafo{
+        max-width: 50%;
+        
+    }
+    h3{
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    footer{
+        background-color: lightgray;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        position: relative;
+        transform: translate(130px, -57px);
+        max-width: 100%;
+    }
+    .container3{
+        background-color: gray;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }  
+}
+   
