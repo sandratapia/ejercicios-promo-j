@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+  }
+  ​
+  .list {
+    text-decoration: underline;
+    cursor: help;
+  }
+  ​
+  .tooltip {
+    background: grey;
+    position: absolute;
+    display: none;
+    border-bottom: 1px dotted black;
+    font-size: 6px;
+    width: 100px;
+    top: -61px;
+  }
+  ​
+  .info-box {
+    position: relative;
+  }
+  ​
+  .info-box:hover .tooltip {
+    display: block;
+  }
+  ​
+  /* .tooltip .tiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: white;
+      text-align: center;
+      border-radius: 3px;
+      padding: 6px 0;
+  ​
+  ​
+      position: absolute;
+      z-index: 1;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  ​
+  .tooltip .tiptext::after { */ /* 
+      content: "";
+      position: absolute;
+      border-width: 5px;
+      border-style: solid;
+  }
+  ​
+  .tooltip:hover .tiptext {
+      visibility: visible;
+  }/*
