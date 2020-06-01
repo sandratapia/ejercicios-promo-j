@@ -1,0 +1,16 @@
+.main-contenedor{
+    width:500px;
+    height: 500px;
+    border: 1px solid red;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+
+.mini-contenedor{
+    width:30px;
+    height:30px;
+    border: 1px solid green;
+    text-align: center;
+    background-color: lightblue;
+}
