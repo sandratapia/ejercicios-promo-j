@@ -1,0 +1,25 @@
+.main__div1{
+  height: 50vh;
+  .main__div1--flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.main__div2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__div2--button{
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
