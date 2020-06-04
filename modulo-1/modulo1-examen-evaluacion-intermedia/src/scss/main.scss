@@ -1,0 +1,191 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Blur images when they have no alt attribute */
+img:not([alt]) {
+  filter: blur(10px);
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:root {
+    --primary-font: "Rubik", sans-serif;
+    --nav-color: #4a4a4a;
+    --background-page: #3cdbc0;
+    --color-body-text: #ffffff;
+  }
+  
+  /*HEADER*/
+  .image {
+    width: 155px;
+    margin: auto;
+  }
+  .main-header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 13px;
+  }
+  .main-nav {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+  }
+  .nav {
+    width: 100vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+  
+    li {
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        font-family: var(--primary-font);
+        color: var(--nav-color);
+        padding: 15px;
+      }
+    }
+  }
+  /*.nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--nav-color);
+    padding: 15px;
+  }*/
+  
+  /*MAIN*/
+  .main-main {
+    height: 100vh;
+    background-color: var(--background-page);
+    font-family: var(--primary-font);
+    color: var(--color-body-text);
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 91px;
+  }
+  
+  @media all and (min-width: 768px) {
+    /*HEADER*/
+    .main-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .main-nav {
+      width: 50%;
+    }
+    .nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+    li a {
+      padding: 0px;
+    }
+    .blog {
+      padding-right: 20px;
+    }
+    .image {
+      width: 50%;
+    }
+  
+    /*MAIN*/
+    .main-main {
+      font-size: 40px;
+    }
+  }
+  
