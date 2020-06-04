@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.boton {
+  display: inline-block;
+  padding: 18px;
+  background: purple;
+  color: white; }
+  .boton:hover {
+    background: #4d004d; }
+
+.boton2 {
+  display: inline-block;
+  padding: 18px;
+  background: purple;
+  color: white; }
+  .boton2:hover {
+    background: #b300b3; }
+
+/*# sourceMappingURL=main.css.map */
