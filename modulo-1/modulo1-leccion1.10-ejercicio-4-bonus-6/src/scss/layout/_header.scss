@@ -1,0 +1,17 @@
+@mixin for-tablet-only {
+  @media (max-width: 768px) { @content; }
+}
+@mixin for-computer-only {
+  @media (max-width: 1280px) { @content; }
+}
+
+.page__header {
+  height: 75px;
+  text-align: center;
+  @include for-tablet-only(){
+    height: 100px;
+  }
+  @include for-computer-only(){
+    height: 110px;
+  }
+}
