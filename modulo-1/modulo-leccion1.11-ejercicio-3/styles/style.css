@@ -1,0 +1,79 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+    max-width: 445px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid red;
+    height: 300px;
+}
+.padding{
+    padding-bottom: 10px;
+}
+.padding2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input{
+    border-radius: 5px solid lightgrey;
+}
+.complete-name{
+    display: flex;
+    justify-content: space-between;
+}
+.email, .re-email{
+    display: inline-block;
+}
+.input1 {
+    width: 100%;
+}
+.re-email{
+    display: block;
+    padding-top: 10px;
+}
+.input2{
+    width: 100%;
+}
+.password{
+    padding-top: 10px;
+    display: block;
+}
+.input3 {
+    width: 100%;
+}
+.small {
+    font-size: x-small;
+}
+.blue{
+    color: lightskyblue;
+    display: inline;
+}
+.uses{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.birthday{
+    display: inline;
+}
+.genero{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button{
+    padding-top: 10px;
+}
+.green{
+    background-color: limegreen;
+    color: white;
+    font-size: bold;
+    border-radius: 5px limegreen;
+}
+.number{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#flightoption1{
+    display: block;
+}
