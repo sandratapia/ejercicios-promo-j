@@ -1,0 +1,11 @@
+label{
+    display:block;
+    padding: 5px;
+}
+input{
+    display:block;
+    padding-bottom: 5px;
+}
+#submit{
+    padding-top: 5px;
+}

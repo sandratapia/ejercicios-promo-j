@@ -1,0 +1,9 @@
+@mixin divColorSize {
+    width: $size;
+    height: $size;
+    background-color: $mainColor;
+}
+@mixin name {
+    
+}
+
