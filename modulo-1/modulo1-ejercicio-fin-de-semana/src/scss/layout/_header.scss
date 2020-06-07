@@ -1,0 +1,31 @@
+.header{
+  background-color:#2939ac;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  .hamburguer{
+    box-sizing: border-box;
+    @media all and (min-width:768px){
+      display: none;
+    }
+  }
+  .nav-header1{
+    width: 50%;
+    .nav-header{
+      display: none;
+      @media all and (min-width:768px){
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        li{
+          list-style-type: none;
+          a{
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

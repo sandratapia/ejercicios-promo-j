@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body class="body wrapper">
+    <h1>Create an acount</h1>
+    <p class="padding">It's free and always will be</p>
+    <form action="#" method="post">
+        <fieldset>
+        <div class="complete-name">
+            <input class="name" type="text" id="name" name="name" placeholder="First name"/>
+            <input type="text" id="surname" name="surname" placeholder="Surname"/>
+        </div>
+        <div class="email"></div>
+            <input type="email" class="input1" type="tel" id="email-tel" name="email-tel" placeholder="Email or mobile number"/>
+        <div> 
+        <div class="re-email">
+            <input type="email" class="input2" type="tel" id="email-tel" name="email-tel" placeholder="Re-enter email or mobile number"/>
+        </div>  
+        <div class="password">
+            <input type="password" class="input3" type="password" name="password" placeholder="New password"/>
+        </div>
+        <div class="birthday">
+            <p class="padding2"><b>Birthday</b></p>
+            <select name="Day" id="day" type="number" value="Day" required>
+                <option value="day">Day</option>
+                <option value="-">-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select id="month" name="Month" value="Month" required>
+                <option value="month">Month</option>
+                <option value="-">-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select id="year" name="Year" value="Year" required>
+                <option value="year">Year</option>
+                <option value="-">-</option>
+                <option value="1994">1994</option>
+                <option value="2000">2000</option>
+                <option value="2021">2021</option> 
+            </select>
+        </div>
+            <p class="small blue">Why do I need to prove my date of birth?</p>
+        </div>
+        <div class="genero">
+                <input type="radio" id="female" value="female" name="female">
+            <label for="radio">Female</label>
+                <input type="radio" id="male" value="male" name="male">
+            <label for="radio">Male</label>    
+        </div>
+        </fieldset>
+
+        <fieldset class="size">
+        <input type="tall" type="number" id="tall" name="tall" min="50cm" max="250cm" default="150cm" placeholder="Choose your size"/>
+        <textarea name="textarea" rows="5" cols="30">Comment something about yourself</textarea>
+        <input id="flightoption1" type="checkbox" value="chooseseat" name="flightoptions"required/>Acepta las condiciones</label>
+        </fieldset>
+        <fieldset>
+        <p class="small uses">By clicking Create an account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy,</a>
+        including our <a href="#">Cookie Use</a></p>
+        </fieldset>
+        <fieldset class="button">
+        <input class="green" type="submit" value="Create an account">
+        <input class="green" type="reset" value="Reset the values" />
+        </fieldset>
+    </form>
+    
+</body>
+</html>
