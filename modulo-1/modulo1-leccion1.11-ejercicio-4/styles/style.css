@@ -6,7 +6,6 @@
     max-width: 450px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid red;
     height: 300px;
 }
 .padding{
@@ -20,14 +19,23 @@ input{
     border-radius: 5px solid lightgrey;
 }
 .complete-name{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.name{
+    width: 50%;
+}
+.input-name{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 .email, .re-email{
     display: inline-block;
 }
 .input1 {
     width: 100%;
+    text-align: right;
 }
 .re-email{
     display: block;
@@ -76,4 +84,8 @@ input{
 }
 #flightoption1{
     display: block;
+}
+.text-name{
+    display: block;
+    width: 100vw;
 }

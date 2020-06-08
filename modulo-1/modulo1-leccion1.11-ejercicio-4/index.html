@@ -13,11 +13,15 @@
     <form action="#" method="post">
         <fieldset>
         <div class="complete-name">
-            <input class="name" type="text" id="name" name="name" placeholder="First name"/>
-            <input type="text" id="surname" name="surname" placeholder="Surname"/>
+            <label class="text-name" for="name">Nombre</label>
+            <div class="input-name">
+                <input class="name" type="text" id="name" name="name" placeholder="First name"/>
+                <input class="name"type="text" id="surname" name="surname" placeholder="Surname"/>
+            </div>
+            
         </div>
         <div class="email"></div>
-            <input type="email" class="input1" type="tel" id="email-tel" name="email-tel" placeholder="Email or mobile number"/>
+            <input type="email" class="input1" type="tel" id="email-tel" name="email-tel" placeholder="@gmail.com"/>
         <div> 
         <div class="re-email">
             <input type="email" class="input2" type="tel" id="email-tel" name="email-tel" placeholder="Re-enter email or mobile number"/>
@@ -27,7 +31,7 @@
         </div>
         <div class="birthday">
             <p class="padding2"><b>Birthday</b></p>
-            <select name="Day" id="day" type="number" value="Day" required>
+            <select size="1" multiple="multiple" name="Day" id="day" type="number" value="Day" required>
                 <option value="day">Days</option>
                 <option value="-">-</option>
                 <option value="1">1</option>

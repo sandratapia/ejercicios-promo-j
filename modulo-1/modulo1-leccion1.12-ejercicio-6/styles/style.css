@@ -1,0 +1,18 @@
+.col-1{
+  background-color: red;
+}
+.col-2{
+  background-color: blue;
+}
+.col-6{
+  background-color: yellow
+}
+.col-12{
+  background-color: orange
+}
+.container{
+  column-gap: 10px;
+}
+.row{
+  column-gap: 10px;
+}
