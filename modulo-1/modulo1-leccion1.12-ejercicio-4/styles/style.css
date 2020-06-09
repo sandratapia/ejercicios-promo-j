@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 100px 50px;
   grid-template-areas: "header header" "main aside" "footer footer";
-    grid-gap: 5px;
+  grid-gap: 5px;
 }
 .item {
   background: #89ece1;
