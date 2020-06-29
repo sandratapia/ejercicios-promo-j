@@ -1,0 +1,36 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffcc00;
+}
+.number-par{
+    background-color: #ffcc00;
+}
+.number-impar{
+    background-color:#ff9900;
+}
+
+.form{
+    text-align: center;
+}
+.selector{
+    width: 50px;
+    padding: 5px 0 5px 0;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.button{
+    background-color: aqua;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid aqua;
+}
+
+.icon-selected{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
