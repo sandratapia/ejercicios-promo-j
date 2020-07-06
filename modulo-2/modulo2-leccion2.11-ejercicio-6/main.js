@@ -14,3 +14,14 @@ document.addEventListener('keyup', function(){
   localStorage.setItem('userInfo', JSON.stringify(userInfo));
   console.log(userInfo);
 })
+
+const recoverInfo = () => {
+  const local = localStorage.getItem('userInfo');
+  const dataLocal = JSON.parse(local);
+  if (dataLocal !== null){
+    inputName.value = dataLocal.name;
+    inputSurname.value = dataLocal.surname;
+
+  }
+};
+recoverInfo();
