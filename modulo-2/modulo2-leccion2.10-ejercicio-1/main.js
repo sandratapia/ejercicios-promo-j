@@ -2,10 +2,8 @@
 
 function getRandomNumber() {
   fetch("https://api.rand.fun/number/integer?max=100")
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(data) {
+  .then (response => response.json())
+  .then(data => {
     document.querySelector('.js-result').innerHTML = data.result
   });
 }

@@ -1,0 +1,32 @@
+.colores-claros, .colores-oscuros{
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.color-light{
+    border: 1px solid black;
+    background-color: rebeccapurple;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+
+.color-dark{
+    border: 1px solid black;
+    background-color: lightpink;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+
+/*colores*/
+.colores-rosa{
+    color: lightpink;
+    background-color: rebeccapurple;
+}
+.colores-morado{
+    color: rebeccapurple;
+    background-color: lightpink;
+}
