@@ -21,7 +21,6 @@ const recoverInfo = () => {
   if (dataLocal !== null){
     inputName.value = dataLocal.name;
     inputSurname.value = dataLocal.surname;
-
   }
 };
 recoverInfo();
