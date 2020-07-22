@@ -21,4 +21,9 @@ Item.defaultProps = {
   description: "No hay descripción",
 };
 
+Item.propTypes = {
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+};
+
 export default Item;
