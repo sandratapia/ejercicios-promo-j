@@ -1,0 +1,21 @@
+li{
+  list-style-type: none;
+  border: 1px solid red;
+  display: inline-block;
+  margin: 15px;
+  padding: 5px;
+}
+
+.square{
+  border: 1px solid red;
+  width: 450px;
+  height: 450px;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.red{
+  background-color: red;
+}
