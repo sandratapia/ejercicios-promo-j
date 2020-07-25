@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/App.css";
-import FormChange from "./FormChange";
+import SheepCounter from "./SheepCounter";
 
 function App() {
   return (
     <div className="App">
-      <FormChange />
+      <SheepCounter />
     </div>
   );
 }

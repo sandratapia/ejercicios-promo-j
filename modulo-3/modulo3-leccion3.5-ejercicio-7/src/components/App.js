@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/App.css";
-import FormChange from "./FormChange";
+import ItemList from "./ItemList";
 
 function App() {
   return (
     <div className="App">
-      <FormChange />
+      <ItemList />
     </div>
   );
 }

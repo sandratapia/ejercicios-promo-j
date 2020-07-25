@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/App.css";
-import FormChange from "./FormChange";
+import PopularFruits from "./PopularFruits";
 
 function App() {
   return (
     <div className="App">
-      <FormChange />
+      <PopularFruits />
     </div>
   );
 }
