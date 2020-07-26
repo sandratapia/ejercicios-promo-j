@@ -114,7 +114,7 @@ const clubs = [
   },
 ];
 
-class Clubs extends React.Component {
+class Club extends React.Component {
   render() {
     const myClubs = clubs;
     const objectToJSX = myClubs.map((club) => {
@@ -137,8 +137,8 @@ class Clubs extends React.Component {
         </div>
       );
     });
-    return <div className="card-club">{objectToJSX}</div>;
+    return <>{objectToJSX}</>;
   }
 }
 
-export default Clubs;
+export default Club;

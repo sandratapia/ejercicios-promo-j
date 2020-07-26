@@ -30,7 +30,7 @@ body{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
-  align-content: center;
+  width: 100%;
   border: 2px solid black;
   padding: 10px 0 10px 10px;
 }
@@ -44,6 +44,7 @@ body{
 .info-club{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-right: 15px;
 }

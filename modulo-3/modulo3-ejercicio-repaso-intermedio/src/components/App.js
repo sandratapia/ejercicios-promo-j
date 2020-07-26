@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/App.css";
-import Clubs from "./Clubs";
+import ClubList from "./ClubList";
 
 function App() {
   return (
     <div className="App">
-      <Clubs />
+      <ClubList />
     </div>
   );
 }
