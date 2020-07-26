@@ -4,9 +4,15 @@ import Club from "./Club";
 
 class ClubList extends React.Component {
   render() {
+    const clubsArray = this.props.clubInfo;
+    const objectToJSX = clubsArray.map((club) => {
+      return (
+        <Club name={club.name} icon={club.fa} arrayMembers={club.members} />
+      );
+    });
     return (
       <div className="card-club">
-        <Club />
+        <ul>{objectToJSX}</ul>
       </div>
     );
   }

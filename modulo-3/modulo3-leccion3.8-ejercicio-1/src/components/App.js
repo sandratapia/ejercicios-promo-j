@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/App.css";
-import ClubList from "./ClubList";
+import FormFilms from "./FormFilms";
 
 function App() {
   return (
     <div className="App">
-      <ClubList />
+      <FormFilms />
     </div>
   );
 }

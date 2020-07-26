@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheet/App.css";
+import ClubList from "./ClubList";
 
 const clubs = [
   {
@@ -114,31 +115,12 @@ const clubs = [
   },
 ];
 
-class Club extends React.Component {
-  render() {
-    const myClubs = clubs;
-    const objectToJSX = myClubs.map((club) => {
-      const members = club.members.map((member, idx) => {
-        return (
-          <li class="club-member" key={idx}>
-            {member}
-          </li>
-        );
-      });
-      return (
-        <div className="each-card">
-          <div className="icon">
-            <i className={club.fa}></i>
-          </div>
-          <div className="info-club">
-            <h1 className="club-name">{club.name}</h1>
-            <ul className="members-wrap">{members}</ul>
-          </div>
-        </div>
-      );
-    });
-    return <>{objectToJSX}</>;
-  }
+function App() {
+  return (
+    <div className="App">
+      <ClubList clubInfo={clubs} />
+    </div>
+  );
 }
 
-export default Club;
+export default App;
