@@ -1,71 +1,145 @@
 import React from "react";
 import "../stylesheet/App.css";
-import Card from "./Card";
 
 class FormFilms extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      description: "",
-      language: "",
-    };
-    this.handleValues = this.handleValues.bind(this);
-  }
-
-  handleValues(event) {
-    const name = event.target.name;
-    const description = event.target.description;
-    const language = event.target.language;
-    this.setState({
-      name: name,
-      description: description,
-      language: language,
-    });
-  }
-
   render() {
     return (
-      <div class="form">
+      <div className="form">
         <form className="my-form">
-          <label for="name">Nombre de la pelicula</label>
-          <input
-            id="name"
-            type="text"
-            key="name"
-            onChange={this.handleValues}
-            value={this.state.name}
-          />
+          <label htmlFor="name">Nombre de la pelicula</label>
+          <input id="name" type="text" key="name" onChange={this.props.event} />
 
-          <label for="description">Descripción</label>
+          <label htmlFor="description">Descripción</label>
           <textarea
             id="description"
             cols="30"
             rows="10"
             key="description"
-            onChange={this.handleValues}
-            value={this.state.description}
+            onChange={this.props.event}
           ></textarea>
 
-          <label for="chose">Elige tu idioma</label>
+          <label htmlFor="chose">Elige tu idioma</label>
           <select
-            onChange={this.handleValues}
+            onChange={this.props.event}
             name="language"
             id="language"
             key="language"
-            value={this.state.language}
           >
             <option value="...">...</option>
             <option value="español">Español</option>
             <option value="ingles">Inglés</option>
             <option value="portugues">Portugues</option>
           </select>
+
+          <label htmlFor="calification">Calificación por edades</label>
+          <input
+            type="radio"
+            value="A, todos los públicos"
+            name="all"
+            id="age"
+            onChange={this.props.event}
+          />
+          <span>Todos los públicos</span>
+          <input
+            type="radio"
+            value="7"
+            name="age"
+            id="age"
+            onChange={this.props.event}
+          />
+          <span>7 años</span>
+          <input
+            type="radio"
+            value="12"
+            name="age"
+            id="age"
+            onChange={this.props.event}
+          />
+          <span>12 años</span>
+          <input
+            type="radio"
+            value="16"
+            name="age"
+            id="age"
+            onChange={this.props.event}
+          />
+          <span>16 años</span>
+          <input
+            type="radio"
+            value="18"
+            name="age"
+            id="age"
+            onChange={this.props.event}
+          />
+          <span>18 años</span>
+
+          <label htmlFor="gender">Género</label>
+          <label htmlFor="comedia">
+            Comedia
+            <input
+              type="checkbox"
+              value="comedia"
+              name="comedia"
+              id="gender"
+              onChange={this.props.event}
+            />
+          </label>
+
+          <label htmlFor="drama">
+            Drama
+            <input
+              type="checkbox"
+              value="drama"
+              name="drama"
+              id="gender"
+              onChange={this.props.event}
+            />
+          </label>
+
+          <label htmlFor="drama">
+            Fantasía
+            <input
+              type="checkbox"
+              value="fantasía"
+              name="fantasía"
+              id="gender"
+              onChange={this.props.event}
+            />
+          </label>
+
+          <label htmlFor="accion">
+            Acción
+            <input
+              type="checkbox"
+              value="accion"
+              name="accion"
+              id="gender"
+              onChange={this.props.event}
+            />
+          </label>
+
+          <label htmlFor="fantasia">
+            Fantasía
+            <input
+              type="checkbox"
+              value="fantasia"
+              name="fantasia"
+              id="gender"
+              onChange={this.props.event}
+            />
+          </label>
+
+          <label htmlFor="terror">
+            Terror
+            <input
+              type="checkbox"
+              value="terror"
+              name="terror"
+              id="gender"
+              onChange={this.props.event}
+            />
+          </label>
         </form>
-        <Card
-          name={this.state.name}
-          description={this.state.description}
-          language={this.state.language}
-        />
       </div>
     );
   }

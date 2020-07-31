@@ -7,7 +7,13 @@ class FormFilms extends React.Component {
       <div className="form">
         <form className="my-form">
           <label htmlFor="name">Nombre de la pelicula</label>
-          <input id="name" type="text" key="name" onChange={this.props.event} />
+          <input
+            id="name"
+            type="text"
+            key="name"
+            onChange={this.props.event}
+            value={name}
+          />
 
           <label htmlFor="description">Descripción</label>
           <textarea
@@ -16,6 +22,7 @@ class FormFilms extends React.Component {
             rows="10"
             key="description"
             onChange={this.props.event}
+            value={description}
           ></textarea>
 
           <label htmlFor="chose">Elige tu idioma</label>
@@ -24,6 +31,7 @@ class FormFilms extends React.Component {
             name="language"
             id="language"
             key="language"
+            value={language}
           >
             <option value="...">...</option>
             <option value="español">Español</option>

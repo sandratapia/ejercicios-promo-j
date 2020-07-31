@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/App.css";
-import FormFilms from "./FormFilms";
+import CollapsibleList from "./CollapsibleList";
 
 function App() {
   return (
     <div className="App">
-      <FormFilms />
+      <CollapsibleList />
     </div>
   );
 }

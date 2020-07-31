@@ -12,6 +12,7 @@ class App extends React.Component {
       language: "",
     };
     this.handleInput = this.handleInput.bind(this);
+    const { name, description, language } = this.state;
   }
 
   handleInput(ev) {
