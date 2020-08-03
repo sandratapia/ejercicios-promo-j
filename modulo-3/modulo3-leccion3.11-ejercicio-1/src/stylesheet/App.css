@@ -1,0 +1,17 @@
+.card{
+  border: 1px solid red;
+  min-width: 100px;
+}
+.form{
+  display: flex;
+}
+.my-form{
+  width: 48%;
+}
+.card {
+  width: 48%;
+}
+
+label{
+  display: block;
+}
